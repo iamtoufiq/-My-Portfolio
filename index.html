@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Maven+Pro:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="navbar">
+    <div class="nav-button">
+      <a href="./blog/blog.html" class="nav-link">
+        <p class="nav-p">Blog</p>
+      </a>
+      <a href="#projects" class="nav-link">
+        <p class="nav-p">Projects</p>
+      </a>
+      <a href="#contact" class="nav-link">
+        <p class="nav-p">Contact me</p>
+      </a>
+    </div>
+  </section>
+  <section class="hero">
+    <div class="hero-body">
+      <div id="typed-strings" class="is-invisible">
+        <p>
+          My name is
+          <strong class="blue">Toufiq Choudhari</strong>.
+        </p>
+        <p>
+          I am a <em>front-end</em>
+          <strong class="blue">web developer</strong> .
+        </p>
+        <p>
+          Click to see my works
+          <strong class="main-links"><a href="#projects"> Projects & </a></strong><strong class="main-links"><a
+              href="./blog/blog.html" class="">Blogs</a></strong> .
+        </p>
+      </div>
+      <span id="typed" class="animate"></span>
+    </div>
+  </section>
+  <!-- //.................................................................................... -->
+  <section id="projects" class="has-background-black">
+    <!-- ------------------------1st project--------------------------- -->
+    <div class="project-div has-background-white has-text-centered p1">
+      <h1 class="has-text-weight-bold">advertising</h1>
+      <p class="project-p">We continue to provide users with free services.</p>
+      <a target="_blank" href="https://toufiq-react-website.netlify.app/"><button class="button button-h1">Live
+          Project</button></a>
+      <a target="_blank" href="https://github.com/iamtoufiq/MyReactWebsite.git"><button
+          class="button button-h1">Code</button></a>
+    </div>
+    <!-- //............................................. -->
+    <div class="project-div has-background-white has-text-centered p2">
+      <h1 class="has-text-weight-bold">Todoist</h1>
+      <p class="project-p">You could remain on top of essential projects, piles of activities, and decisions with the
+        use of to-do lists.</p>
+      <a target="_blank" href="https://todoist-toufiq.netlify.app/"><button class="button button-h1 is-outlined">Live
+          Project</button></a>
+      <a target="_blank" href="https://github.com/iamtoufiq/Todoist.git"><button
+          class="button button-h1 is-outlined">Code</button></a>
+    </div>
+    <!-- //............................................. -->
+    <div class="project-div has-background-white has-text-centered p3">
+      <h1 class="has-text-weight-bold">Notejoy </h1>
+      <p class="project-p">
+        Notejoy allows users to take many types of notes. Users can create reminders, and optical character recognition
+        technology can extract text.
+      </p>
+      <a target="_blank" href="https://iamtoufiq.github.io/Notejoy/"><button class="button button-h1 is-outlined">Live
+          Project</button></a>
+      <a target="_blank" href="https://github.com/iamtoufiq/Notejoy.git"><button
+          class="button button-h1 is-outlined">Code</button></a>
+    </div>
+    <!-- ----------------------------------------------- -->
+    <div class="project-div has-background-white has-text-centered p4">
+      <h1 class="has-text-weight-bold">
+        Accuweather</h1>
+      <p class="project-p">This free weather application will show snow, wind, cold, rain, and other weather conditions.
+        Use our local weather and live forecasts to stay prepared.</p>
+      <a target="_blank" href="https://accuweather-toufiq.netlify.app/"><button
+          class="button button-h1 is-outlined">Live
+          Project</button></a>
+      <a target="_blank" href="https://github.com/iamtoufiq/Accuweather.git"><button
+          class="button button-h1 is-outlined">Code</button></a>
+    </div>
+    <!-- ----------------------------------------------- -->
+    <div class="project-div has-background-white has-text-centered p5" id="bigProject">
+      <h1 class="has-text-weight-bold">TextAnalyzer</h1>
+      <p class="project-p">Check Your Content You May Rapidly And Effectively Analyse Your Text Using Textanalyzer.</p>
+      <a target="_blank" href="https://textanalyzer2.netlify.app/"><button class="button button-h1 is-outlined">Live
+          Project</button></a>
+      <a target="_blank" href="https://github.com/iamtoufiq/TextAnalyzer.git"><button
+          class="button button-h1 is-outlined">Code</button></a>
+    </div>
+
+    <!-- ----------------------------------------------------- -->
+
+
+
+    <div class="has-text-centered">
+      <a target="_blank" href="project/project.html"><button class="button is-black more-button">
+          View more Projects
+        </button></a>
+    </div>
+  </section>
+
+  <section id="contact" class="has-background-black">
+    <div class="about-me has-text-centered pb-4">
+      <h1 class="about-me_heading has-text-grey">Contact Me</h1>
+      <a target="_blank" href="https://github.com/iamtoufiq" class="links"><i class="lni lni-github-original"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/toufiq-choudhari-56208b203/" class="links"><i
+          class="lni lni-linkedin-original"></i></a>
+      <a target="_blank" href="https://twitter.com/iamtoufiq15" class="links"><i class="lni lni-twitter-filled"></i></a>
+    </div>
+  </section>
+
+  <script src="typed.js"></script>
+  <script>
+    const disp = document.querySelector("#typed-strings");
+    function animate() {
+      var typed = new Typed("#typed", {
+        stringsElement: "#typed-strings",
+        backSpeed: 20,
+        typeSpeed: 40,
+      });
+    }
+    window.onload = setTimeout(() => {
+      disp.classList.remove("is-invisible");
+      animate();
+    }, 0);
+  </script>
+  <script src="index.js"></script>
+</body>
+
+</html>
