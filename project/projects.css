@@ -41,6 +41,10 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 0.5em;
+  transition: all ease 0.2s;
+}
+.project-button:hover{
+  transform: scale(0.95);
 }
 .heading {
   margin-top: 10px;
@@ -71,9 +75,13 @@ a:hover {
 .navbar {
   background: #0a0a0a;
   text-align: center;
+
+ 
 }
 .nav-button {
   height: 5vh;
+  background-color: #000000;
+  
 }
 .nav-link {
   margin: 0 20px;
